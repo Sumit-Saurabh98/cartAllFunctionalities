@@ -30,7 +30,7 @@ function Cart({state, dispatch}) {
                 state.cart.map((p)=>{
                     return <div style={{display:"flex", justifyContent:"start", alignItems:"center"}} key={p.id}>
                     <div style={{width:"50%"}}>
-                        <img style={{width:"100px"}} src={p.image} alt={p.title} />
+                        <img style={{width:"100px"}} src={p.thumbnail} alt={p.title} />
                         <p>{p.title}</p>
                         <p>{p.price}</p>
                     </div>

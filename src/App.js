@@ -1,11 +1,12 @@
 
 import './App.css';
-import Products from './components/Products';
+
+import AllRoute from './routes/AllRoute';
 
 function App() {
   return (
     <div className="App">
-      <Products/>
+      <AllRoute/>
     </div>
   );
 }
